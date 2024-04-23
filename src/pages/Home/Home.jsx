@@ -182,7 +182,7 @@ export default function Home() {
       </div>
 
       <button
-        className="fixed bottom-14 lg:bottom-10 right-10 z-50 text-white hover:bg-green-400 bg-green-500 p-2 rounded-md shadow-md hover:shadow-lg"
+        className="fixed bottom-14 lg:bottom-10 right-5 z-50 text-white hover:bg-green-400 bg-green-500 p-2 rounded-md shadow-md hover:shadow-lg"
         onClick={() => {
           setOpenAddEditModal({ isShow: true, type: "add", date: null });
         }}
@@ -201,7 +201,7 @@ export default function Home() {
           },
         }}
         contentLabel=""
-        className="w-[800px] my-14 bg-white rounded-md mx-auto p-5"
+        className="w-[90%] lg:w-[60%] my-24  bg-white rounded-md mx-auto p-5"
       >
         <AddEditNotes
           type={openAddEditModal.type}
