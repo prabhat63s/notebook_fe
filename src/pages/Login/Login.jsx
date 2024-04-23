@@ -48,7 +48,7 @@ export default function Login() {
 
   return (
     <div>
-      <div className="flex items-center justify-center mt-36">
+      <div className="flex items-center justify-center h-screen px-6">
         <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-xl sm:p-6 md:p-8">
           <form className="space-y-6" onSubmit={handleLogin}>
             <h5 className="text-xl font-medium text-gray-900">
