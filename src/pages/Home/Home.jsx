@@ -142,7 +142,7 @@ export default function Home() {
       <div className="w-full p-6 overflow-auto h-[80vh]">
         {isSearch ? (
           allNotes.length > 0 ? (
-            <div className="w-full grid grid-cols-3 gap-6">
+            <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
               {allNotes.map((item, index) => (
                 <NoteCard
                   key={item._id}
@@ -161,7 +161,7 @@ export default function Home() {
             <SearchNotFound />
           )
         ) : allNotes.length > 0 ? (
-          <div className="w-full grid grid-cols-3 gap-6">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
             {allNotes.map((item, index) => (
               <NoteCard
                 key={item._id}
