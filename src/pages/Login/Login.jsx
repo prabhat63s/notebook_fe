@@ -14,9 +14,6 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    console.log("Email:", email); // Check the entered email
-    console.log("Password:", password); // Check the entered password
-
     if (!validateEmail(email)) {
       setError("Please enter a valid email");
       return;

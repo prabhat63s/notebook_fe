@@ -16,10 +16,6 @@ export default function SignUp() {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    console.log("Name:", name); // Check the entered name
-    console.log("Email:", email); // Check the entered email
-    console.log("Password:", password); // Check the entered password
-
     if (!name) {
       setError("Please enter a name");
       return;
