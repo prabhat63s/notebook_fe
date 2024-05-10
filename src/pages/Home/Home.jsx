@@ -216,7 +216,7 @@ export default function Home() {
       <div className="fixed bottom-0 py-4 w-full text-center">
         <p className="font-medium">
           Copyright © {year}{" "}
-          <Link to="https://prabhat-singh.vercel.app/" target="_/blank">
+          <Link to="https://prabhat-singh-portfolio.vercel.app/" target="_/blank">
             Prabhat singh
           </Link>
         </p>
